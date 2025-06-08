@@ -60,7 +60,8 @@ target_link_libraries(usb_to_zx_key
         pico_runtime
         pico_stdlib
         hardware_pio
-        tinyusb_host 
+        tinyusb_host
+        tinyusb_device
         tinyusb_board
         pico_multicore
         hardware_flash
